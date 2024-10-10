@@ -1,0 +1,95 @@
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.navbar {
+    position: fixed; /* Keeps the navbar at the top */
+    top: 0; /* Ensures it is at the top */
+    left: 0; /* Ensures it is aligned to the left */
+    margin-right: auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distributes space between elements */
+    align-items: center; /* Vertically centers items */
+    padding: 10px 20px; /* Padding around the navbar */
+    background-color: white; /* Background color of the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    width: 100%; /* Makes sure the navbar takes the full width */
+}
+
+/* Logo styles */
+.navbar-logo {
+    display: flex; /* Flex container for logo */
+    align-items: center; /* Vertically center logo */
+    color: black; /* Color of the logo */
+}
+
+.logo-image {
+    width: 80px; /* Fixed width for the logo */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Navigation links */
+.navbar-links {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Displays links in a row */
+    gap: 20px; /* Space between links */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    color: black; /* Text color */
+}
+
+.navbar-links li {
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-links li:hover {
+    color: #ff385c; /* Change color on hover */
+}
+
+/* Optional: Add a slight spacing between buttons */
+.auth-options button:not(:last-child) {
+    margin-bottom: 5px; /* Space between buttons */
+}
+.auth-options {
+    position: fixed; /* Position it relative to the profile icon */
+    right: 0; /* Align to the right */
+    top: 40px; /* Position below the icon */
+    background-color: white; /* Background color */
+    border: 1px solid #ddd; /* Border for the dropdown */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    z-index: 100; /* Ensure it appears above other content */
+    display: flex; /* Align buttons in a row */
+    flex-direction: column; /* Stack buttons vertically */
+    padding: 10px 0; /* Padding around the dropdown */
+}
+
+.auth-options button {
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* Remove border */
+    background-color: #ff385c; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width of the dropdown */
+}
+
+.auth-options button:hover {
+    background-color: #ff1530; /* Darker color on hover */
+    transform: scale(1.05);
+}
+
+
+.profile-icon {
+    font-size: 30px; /* Size of the icon */
+    color: #555; /* Default icon color */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-left: auto; /* Pushes the icon to the left */
+    margin-right:90px; /* Space before the end of the border */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+

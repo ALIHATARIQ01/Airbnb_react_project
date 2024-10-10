@@ -1,0 +1,36 @@
+/* Ensure that the categories section is styled to be directly below the navbar */
+.categories {
+    position: fixed; 
+    /* Keeps the navbar at the top */
+    overflow-x: auto; /* Allows horizontal scrolling */
+    top: 16%; /* Ensures it is at the top */
+    left: 0; /* Ensures it is aligned to the left */
+    right: 0; /* Ensures it stretches to the right */
+    display: flex;
+    gap: 10px;
+    border: 1px solid #ddd; /* Add a border around the categories */
+    border-radius: 10px; /* Round the corners of the border */
+    
+    padding: 1.5% 1%; /* Padding around the navbar */
+    background-color: #ff385c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+    width: 100%; /
+}
+
+/* Category button styling */
+.category-button {
+    background-color: #000000; /* Default button color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    flex-shrink: 0; /* Prevent buttons from shrinking */
+    margin-right: 20px;
+}
+
+/* Hover effects for category buttons */
+.category-button:hover {
+    background-color: #ff385c; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
