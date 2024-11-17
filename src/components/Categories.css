@@ -1,6 +1,18 @@
 .categories {
     position: fixed; 
+<<<<<<< HEAD
     overflow-x: auto; 
+    top: 16%; 
+    left: 0;
+    right: 0;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 1.5% 1%; 
+    background-color: #fff8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+=======
+    overflow-x: scroll; 
     top: 16%; 
     left: 0;
     right: 0;
@@ -37,3 +49,75 @@
     font-size: 14px; /* Adjust as necessary */
 }
 
+
+
+
+
+
+
+
+
+
+
+/* Ensure that the categories section is styled to be directly below the navbar 
+.categories {
+    position: fixed; 
+    /* Keeps the navbar at the top 
+    overflow-x: auto; 
+    top: 16%; 
+    right: 0; 
+    display: flex;
+    gap: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    
+    padding: 1.5% 1%; 
+    background-color: #ff385c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+>>>>>>> a0f2e31 (Phase 2 changes)
+    z-index: 1;
+    width: 100%; 
+}
+
+<<<<<<< HEAD
+.category-button {
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+=======
+/* Category button styling 
+.category-button {
+    background-color: #000000; 
+    border: none; /* Remove border 
+    padding: 10px 20px; /* Space inside the button 
+    border-radius: 20px; /* Rounded corners 
+    cursor: pointer; /* Cursor changes to pointer on hover 
+    flex-shrink: 0; /* Prevent buttons from shrinking 
+>>>>>>> a0f2e31 (Phase 2 changes)
+    margin-right: 20px;
+    display: flex;
+    align-items: center; /* Align icon and text horizontally */
+    gap: 10px; /* Space between icon and text */
+    color: white; /* Set text color */
+}
+
+<<<<<<< HEAD
+.category-button:hover {
+    background-color: #ff385c;
+    color: white;
+}
+
+.category-name {
+    font-size: 14px; /* Adjust as necessary */
+}
+
+=======
+/* Hover effects for category buttons 
+.category-button:hover {
+    background-color: #ff385c; /* Change background on hover 
+    color: white; /* Change text color on hover 
+}*/
+>>>>>>> a0f2e31 (Phase 2 changes)

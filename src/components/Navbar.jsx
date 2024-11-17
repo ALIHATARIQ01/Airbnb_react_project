@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../image/logo1.png'; // Update the path to your logo
+import logo from '../image/airbnb.jpg';
 import SearchBar from './Searchbar';
 import { FaUserCircle } from 'react-icons/fa'; // Import the profile icon
+
 
 const Navbar = () => {
     const [showAuthOptions, setShowAuthOptions] = useState(false); 
@@ -38,3 +39,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

@@ -1,0 +1,16 @@
+.booking-page {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .booking-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: green;
+  }
+  
